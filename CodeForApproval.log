@@ -1,0 +1,68 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F66K22 -RA -DL -O11111114 -fo32 -N"C:\Users\Paul\Desktop\ActiveProject\CodeForApproval\CodeForApproval.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Paul\Desktop\ActiveProject\CodeForApproval\" -SP"C:\Users\Paul\Desktop\ActiveProject\TestCodeForAlan\" -IP"C:\Users\Paul\Desktop\ActiveProject\CodeForApproval\" "LTC2943.c" "my_string.c" "Touch_Panel_Calibration_and_Write.c" "Relay.c" "MCP9700.c" "Led.c" "Charger.c" "Display.c" "Switch.c" "Interrupt.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_K22.mcl" "__Lib_EEPROM_1024.mcl" "__Lib_I2C_c34d65_k22_k90.mcl" "__Lib_PWM_K90.mcl" "__Lib_SPI_c345d654.mcl" "__Lib_UART_c67g12.mcl" "__Lib_PortExpander.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 3841 [bytes], Available ROM: 65536 [bytes]	 
+diagnostics: 0	122	Compilation Started	P18F66K22.c
+diagnostics: 3222	123	Compiled Successfully	P18F66K22.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__Lib_GlcdFonts.c
+diagnostics: 1207	123	Compiled Successfully	__Lib_GlcdFonts.c
+diagnostics: 0	122	Compilation Started	ltc2943.h
+diagnostics: 283	123	Compiled Successfully	LTC2943.c
+hint: 60	1164	Variable 'Err' has been eliminated by optimizer	LTC2943.c
+hint: 102	1164	Variable 'x' has been eliminated by optimizer	LTC2943.c
+hint: 102	1164	Variable 'Err' has been eliminated by optimizer	LTC2943.c
+hint: 162	1164	Variable 'lValue' has been eliminated by optimizer	LTC2943.c
+hint: 160	1164	Variable 'byte' has been eliminated by optimizer	LTC2943.c
+diagnostics: 0	122	Compilation Started	my_string.h
+diagnostics: 238	123	Compiled Successfully	my_string.c
+hint: 68	1164	Variable 'ctr' has been eliminated by optimizer	my_string.c
+hint: 117	1164	Variable 'ctr' has been eliminated by optimizer	my_string.c
+hint: 165	1164	Variable 'ctr' has been eliminated by optimizer	my_string.c
+hint: 192	1164	Variable 'ctr' has been eliminated by optimizer	my_string.c
+hint: 220	1164	Variable 'ctr' has been eliminated by optimizer	my_string.c
+hint: 221	1164	Variable 'byte' has been eliminated by optimizer	my_string.c
+hint: 55	1354	 warning: The macro is redefined      #define IMAGE_MPPT_WIDTH 31     from C:/Users/Paul/Desktop/ActiveProject/CodeForApproval/Touch_Panel_Calibration_and_Write.c: 22:    #include "Display.h"     previously macro "IMAGE_MPPT_WIDTH" defined as: #define IMAGE_MPPT_WIDTH  24 	c:\users\paul\desktop\activeproject\codeforapproval\display.h
+diagnostics: 0	122	Compilation Started	my_string.h
+warning: 21	1504	Initialization of extern object 'PercentLedPWM'	interrupt.h
+warning: 692	1503	Result is not defined in function: 'BatteryControl'	Touch_Panel_Calibration_and_Write.c
+diagnostics: 1427	123	Compiled Successfully	Touch_Panel_Calibration_and_Write.c
+hint: 121	1164	Variable 'Expert' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 122	1164	Variable 'ExpertModeTimer' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 126	1164	Variable 'err' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 128	1164	Variable 'level' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 129	1164	Variable 'w' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 131	1164	Variable 'ret' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 132	1164	Variable 'lValue' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 135	1164	Variable 'L' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 1083	1164	Variable 'ret' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 1084	1164	Variable 'fValue' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 1085	1164	Variable 'lValue' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+hint: 1173	1164	Variable 'bytes' has been eliminated by optimizer	Touch_Panel_Calibration_and_Write.c
+diagnostics: 0	122	Compilation Started	relay.h
+diagnostics: 91	123	Compiled Successfully	Relay.c
+diagnostics: 0	122	Compilation Started	mcp9700.h
+diagnostics: 123	123	Compiled Successfully	MCP9700.c
+diagnostics: 0	122	Compilation Started	led.h
+diagnostics: 181	123	Compiled Successfully	Led.c
+hint: 55	1354	 warning: The macro is redefined      #define IMAGE_MPPT_WIDTH 31     from C:/Users/Paul/Desktop/ActiveProject/CodeForApproval/Charger.c: 17:    #include "Display.h"     previously macro "IMAGE_MPPT_WIDTH" defined as: #define IMAGE_MPPT_WIDTH  24 	c:\users\paul\desktop\activeproject\codeforapproval\display.h
+diagnostics: 0	122	Compilation Started	charger.h
+warning: 156	1509	Generated baud rate is 2404 bps (error = 0.17 percent)	Charger.c
+diagnostics: 296	123	Compiled Successfully	Charger.c
+hint: 282	1164	Variable 'I' has been eliminated by optimizer	Charger.c
+hint: 55	1354	 warning: The macro is redefined      #define IMAGE_MPPT_WIDTH 31     from C:/Users/Paul/Desktop/ActiveProject/CodeForApproval/Display.c: 13:    #include "Display.h"     previously macro "IMAGE_MPPT_WIDTH" defined as: #define IMAGE_MPPT_WIDTH  24 	c:\users\paul\desktop\activeproject\codeforapproval\display.h
+diagnostics: 0	122	Compilation Started	display.h
+hint: 658	1163	Variable 'W' has been declared, but not used	Display.c
+diagnostics: 898	123	Compiled Successfully	Display.c
+hint: 446	1164	Variable 'V' has been eliminated by optimizer	Display.c
+hint: 608	1164	Variable 'V' has been eliminated by optimizer	Display.c
+hint: 609	1164	Variable 'lValue' has been eliminated by optimizer	Display.c
+hint: 711	1164	Variable 'W' has been eliminated by optimizer	Display.c
+hint: 712	1164	Variable 'lValue' has been eliminated by optimizer	Display.c
+diagnostics: 0	122	Compilation Started	switch.h
+diagnostics: 69	123	Compiled Successfully	Switch.c
+diagnostics: 0	122	Compilation Started	interrupt.h
+warning: 21	1504	Initialization of extern object 'PercentLedPWM'	interrupt.h
+diagnostics: 66	123	Compiled Successfully	Interrupt.c
+diagnostics: 0	127	All files Compiled in 1669 ms	 
+error: 0	434	Demo Limit	Demo Limit
+error: 0	102	Finished (with errors): 29 Aug 2016, 23:07:53	CodeForApproval.mcppi
